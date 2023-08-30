@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300&display=swap');
+
+body{
+width: 1440px;
+height: 2040px;
+background: #F5CFFF;
+}
+
+
+
+.correo{
+    
+width: 276px;
+height: 30px;
+flex-shrink: 0;
+color: #000;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 84px; left: 196px;
+}
+
+.pagina{
+width: 443px;
+height: 30px;
+flex-shrink: 0;
+color: #000;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 84px; left: 1028px;
+}
+
+.mundito{
+    position: absolute;
+    top: 108px; left: 990px;
+        
+    }
+    
+    .mail{
+        position: absolute;
+        top: 108px; left: 160px; 
+    }
+
+
+.nombre1{
+    width: 367px;
+    height: 157px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Sedgwick Ave;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 381px; left: 163px;
+}
+
+.nombre2{
+    width: auto ;
+height: 157px;
+flex-shrink: 0;
+color: #000;
+font-family: Sedgwick Ave;
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 381px; left: 1010px;
+}
+
+
+.img{
+    width: 422px;
+height: 432px;
+flex-shrink: 0;
+border-radius: 211px;
+background: lightgray;
+position: absolute;
+top: 243px; left: 560px;
+}
+
+
+.titulomedio{
+    width: 288px;
+height: 87px;
+flex-shrink: 0;
+color: #000;
+font-family: Barlow;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 720px; left: 630px;
+}
+
+
+p{
+    width: 585px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 810px; left: 470px;
+}
+
+.linea1{
+    width: 560px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 803px; left: 0px;
+}
+
+.linea2{
+    width: 555.001px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 803px; right: 0;
+}
+
+.linea3{
+    width: 2px;
+height: 959px;  
+background: #000;
+position: absolute;
+top: 957px; right: 50%;
+}
+
+h4{
+ width: 135px;
+height: 55px;
+flex-shrink: 0;
+color: #000;
+font-family: Barlow;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.retos{
+    position: absolute;
+    top: 962px; left: 96px;
+}
+
+.consultas{
+    position: absolute;
+    top: 1498px; left: 96px;
+
+}
+
+.diseños{
+    position: absolute;
+    top: 962px; left: 790px;
+}
+
+.talleres{
+    position: absolute;
+    top: 1498px; left: 790px;
+}
+
+.botones_retos{
+    position: absolute;
+    top: 1100px; left: 96px;
+}
+
+.botones_consultas{
+    position: absolute;
+    top: 1620px; left: 96px;
+}
+
+.botones_diseños{
+    position: absolute;
+    top: 1100px; left: 790px;
+}
+
+.botones_talleres{
+    position: absolute;
+    top: 1620px; left: 790px;
+}
+
+
+button{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    transition: 0.2s;
+    
+    
+}
+
+
+button:hover {
+    padding: 13px 33px;
+    background: #fff;
+    color: black;
+    /* box-shadow: 0 0 35px var(--clr); */
+    animation: box 3s infinite;
+  }
+
+  button::before {
+    content: "";
+    position: absolute;
+    /*inset: 2px;*/
+  }
+
